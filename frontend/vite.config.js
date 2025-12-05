@@ -18,4 +18,10 @@ export default defineConfig({
             },
         },
     },
+    // For production builds: use VITE_API_URL environment variable
+    define: {
+        'import.meta.env.VITE_API_URL': JSON.stringify(
+            process.env.VITE_API_URL || ''
+        )
+    }
 })
