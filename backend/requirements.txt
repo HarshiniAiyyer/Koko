@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+streamlit
+groq
+transformers
+sentence-transformers
+qdrant-client
+networkx
+langchain
+langchain-community
+pydantic
+tinydb
+matplotlib
+seaborn
+pyvis
+httpx
+python-dotenv

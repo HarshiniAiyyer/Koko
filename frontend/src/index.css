@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-background text-white;
+    }
+}
+
+/* Glassmorphism utilities */
+.glass-panel {
+    @apply bg-surface backdrop-blur-md border border-white/10 shadow-xl;
+}
+
+.glass-card {
+    @apply bg-white/5 backdrop-blur-sm border border-white/5 rounded-xl;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-white/10 rounded-full hover:bg-white/20 transition-colors;
+}

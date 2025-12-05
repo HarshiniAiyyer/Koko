@@ -1,0 +1,216 @@
+{
+  "preferences": [
+    {
+      "type": "preference",
+      "content": "Italian food",
+      "evidence_indices": [
+        2
+      ],
+      "confidence": "medium",
+      "embedding": null
+    },
+    {
+      "type": "preference",
+      "content": "vegetarian diet",
+      "evidence_indices": [
+        3
+      ],
+      "confidence": "medium",
+      "embedding": null
+    },
+    {
+      "type": "preference",
+      "content": "tea over coffee",
+      "evidence_indices": [
+        9
+      ],
+      "confidence": "medium",
+      "embedding": null
+    },
+    {
+      "type": "preference",
+      "content": "green tea",
+      "evidence_indices": [
+        9
+      ],
+      "confidence": "medium",
+      "embedding": null
+    },
+    {
+      "type": "preference",
+      "content": "working alone",
+      "evidence_indices": [
+        17
+      ],
+      "confidence": "medium",
+      "embedding": null
+    },
+    {
+      "type": "preference",
+      "content": "lo-fi music while coding",
+      "evidence_indices": [
+        12
+      ],
+      "confidence": "medium",
+      "embedding": null
+    },
+    {
+      "type": "preference",
+      "content": "reading sci-fi novels",
+      "evidence_indices": [
+        20
+      ],
+      "confidence": "medium",
+      "embedding": null
+    },
+    {
+      "type": "preference",
+      "content": "dislike of cold weather",
+      "evidence_indices": [
+        11
+      ],
+      "confidence": "medium",
+      "embedding": null
+    }
+  ],
+  "patterns": [
+    {
+      "type": "pattern",
+      "content": "tendency to work late nights",
+      "evidence_indices": [
+        4
+      ],
+      "confidence": "medium",
+      "embedding": null
+    },
+    {
+      "type": "pattern",
+      "content": "stress and anxiety before deadlines or big presentations",
+      "evidence_indices": [
+        14,
+        25
+      ],
+      "confidence": "medium",
+      "embedding": null
+    },
+    {
+      "type": "pattern",
+      "content": "feeling overwhelmed at the start of a new sprint",
+      "evidence_indices": [
+        16
+      ],
+      "confidence": "medium",
+      "embedding": null
+    },
+    {
+      "type": "pattern",
+      "content": "need for alone time to recharge",
+      "evidence_indices": [
+        13
+      ],
+      "confidence": "medium",
+      "embedding": null
+    },
+    {
+      "type": "pattern",
+      "content": "tendency to overthink things",
+      "evidence_indices": [
+        25
+      ],
+      "confidence": "medium",
+      "embedding": null
+    },
+    {
+      "type": "pattern",
+      "content": "feeling lonely while working from home",
+      "evidence_indices": [
+        27
+      ],
+      "confidence": "medium",
+      "embedding": null
+    }
+  ],
+  "facts": [
+    {
+      "type": "fact",
+      "content": "software engineer",
+      "evidence_indices": [
+        0
+      ],
+      "confidence": "medium",
+      "embedding": null
+    },
+    {
+      "type": "fact",
+      "content": "based in Seattle",
+      "evidence_indices": [
+        1
+      ],
+      "confidence": "medium",
+      "embedding": null
+    },
+    {
+      "type": "fact",
+      "content": "works from home",
+      "evidence_indices": [
+        1
+      ],
+      "confidence": "medium",
+      "embedding": null
+    },
+    {
+      "type": "fact",
+      "content": "has a cat named Luna",
+      "evidence_indices": [
+        5
+      ],
+      "confidence": "medium",
+      "embedding": null
+    },
+    {
+      "type": "fact",
+      "content": "working on a machine learning project",
+      "evidence_indices": [
+        6
+      ],
+      "confidence": "medium",
+      "embedding": null
+    },
+    {
+      "type": "fact",
+      "content": "learning Spanish",
+      "evidence_indices": [
+        10
+      ],
+      "confidence": "medium",
+      "embedding": null
+    },
+    {
+      "type": "fact",
+      "content": "introvert",
+      "evidence_indices": [
+        13
+      ],
+      "confidence": "medium",
+      "embedding": null
+    },
+    {
+      "type": "fact",
+      "content": "has a home office",
+      "evidence_indices": [
+        22
+      ],
+      "confidence": "medium",
+      "embedding": null
+    },
+    {
+      "type": "fact",
+      "content": "planning a trip to Italy",
+      "evidence_indices": [
+        24
+      ],
+      "confidence": "medium",
+      "embedding": null
+    }
+  ]
+}

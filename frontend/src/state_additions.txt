@@ -1,0 +1,7 @@
+// Add after line 83 (after emotions state):
+const [preferences, setPreferences] = useState([]);
+const [patterns, setPatterns] = useState([]);
+
+// Add after line 79 (with other state):
+const [showRawReply, setShowRawReply] = useState(false);
+const [neutralReply, setNeutralReply] = useState("");

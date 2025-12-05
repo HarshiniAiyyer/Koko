@@ -1,0 +1,21 @@
+{
+  "preferences": [],
+  "patterns": [],
+  "facts": [
+    {
+      "type": "fact",
+      "content": "has a job",
+      "evidence_indices": [
+        0
+      ],
+      "confidence": "medium",
+      "embedding": null
+    }
+  ],
+  "stats": {
+    "anxiety": 0.0,
+    "paralysis": 0.0,
+    "optimism": 0.0,
+    "stress": 0.0
+  }
+}
