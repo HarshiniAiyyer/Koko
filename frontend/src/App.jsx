@@ -7,6 +7,10 @@ import {
 } from 'lucide-react';
 import axios from 'axios';
 
+// --- API Configuration ---
+// Use environment variable for production backend URL
+const API_BASE_URL = import.meta.env.VITE_API_URL || '';
+
 // --- Card Theme Constants ---
 
 const TONES = {
@@ -175,7 +179,7 @@ export default function App() {
 
     // Fetch memory on mount
     useEffect(() => {
-        axios.get('/api/memory')
+        axios.get(`${API_BASE_URL}/api/memory`)
             .then(res => {
                 const formatItems = (items) => items.map((item, i) => ({
                     id: Date.now() + i + Math.random(),
@@ -210,13 +214,13 @@ export default function App() {
 
         try {
             // 1. Analyze Emotion
-            const emotionRes = await axios.post('/api/emotion/analyze', {
+            const emotionRes = await axios.post(`${API_BASE_URL}/api/emotion/analyze`, {
                 text: textToAnalyze
             });
             const emotionData = emotionRes.data;
 
             // 2. Extract Memory - now categorized
-            axios.post('/api/memory/extract', {
+            axios.post(`${API_BASE_URL}/api/memory/extract`, {
                 messages: [textToAnalyze]
             }).then(res => {
                 const formatItems = (items) => items.map((item, i) => ({
@@ -293,7 +297,7 @@ export default function App() {
         setStatus('generating');
 
         try {
-            const chatRes = await axios.post('/api/chat', {
+            const chatRes = await axios.post(`${API_BASE_URL}/api/chat`, {
                 message: inputText,
                 requested_persona: backendPersona
             });
