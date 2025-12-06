@@ -1,4 +1,4 @@
-# KOKO - The Personality Engine
+# Koko - The Personality Engine
 
 **An AI companion with memory-enhanced personality transformation**
 
